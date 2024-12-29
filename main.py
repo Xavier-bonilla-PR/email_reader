@@ -453,8 +453,8 @@ def main():
     gmail_client.authenticate()
 
     # Display recent threads and handle interactions
-    gmail_client.display_recent_threads(query='from:xavieralexanderbonila@gmail.com', max_threads=7)
-    # messages = gmail_client.list_messages('from:xavieralexanderbonila@gmail.com', max_results=6)
+    gmail_client.display_recent_threads(query='from:your_email@gmail.com', max_threads=7)
+    # messages = gmail_client.list_messages('from:your_email@gmail.com', max_results=6)
 
     # #
     # if messages:
@@ -479,7 +479,7 @@ virtualenv env_name
 Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
 .\env_name\Scripts\activate
 where python3
-python email_listen.py
+python main.py
 """
 
                                                             
